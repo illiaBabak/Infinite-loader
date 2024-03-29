@@ -1,10 +1,21 @@
 @import '../components';
 
-.list {
+.container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 100%;
   background-color: #d6a2e8;
+
+  .list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    gap: 8px;
+  }
 }
